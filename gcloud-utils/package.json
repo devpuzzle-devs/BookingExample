@@ -1,0 +1,16 @@
+{
+  "name": "gcloud-utils",
+  "version": "1.0.0",
+  "description": "Script to create insufficient thumb images from full /images folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^8.12.1",
+    "sharp": "^0.25.3"
+  }
+}

@@ -1,0 +1,68 @@
+.WrapperItemReview {
+    font-family: Avenir;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .Background {
+        position: fixed;
+        z-index: 49;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        max-width: 100%;
+
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.ReviewLogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+
+    border: solid 1px #efeff5;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 5px rgba(47, 48, 56, .05);
+}
+.ReviewEmail {
+    font-size: 14px;
+    font-weight: 900;
+
+    color: #2f3038;
+}
+.ReviewTest {
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #848699;
+}
+.ReviewDate {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.75;
+
+    color: #848699;
+}
+.ReviewText {
+    font-size: 15px;
+    line-height: 1.4;
+
+    color: #2f3038;
+}
+
+.ReviewSettingWrapper {
+    position: absolute;
+}
+.ReviewSettingItem {
+    margin: 5px 20px;
+
+    cursor: pointer;
+}

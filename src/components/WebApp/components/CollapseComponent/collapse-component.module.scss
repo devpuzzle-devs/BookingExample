@@ -1,0 +1,19 @@
+.DetailsText {
+  // font-family: Avenir;
+  font-size: 15px;
+  font-weight: 500;
+  // font-stretch: normal;
+  // font-style: normal;
+  line-height: 1.4;
+  // letter-spacing: normal;
+  color: #848699;
+
+  > :last-child {
+    margin-top: 20px;
+  }
+}
+
+.ShowText {
+  cursor: pointer;
+  color: #3e73ec;
+}

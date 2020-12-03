@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "booking-example",
+    "production": "booking-example"
+  }
+}

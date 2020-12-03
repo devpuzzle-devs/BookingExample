@@ -1,0 +1,102 @@
+
+
+#map-canvas {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    // max-width: none;
+}
+#map-canvas img {
+    max-width: none !important;
+}
+.gm-style-iw {
+    top: 15px !important;
+    left: 0 !important;
+
+    width: 200px !important;
+
+    border: solid 2px #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 15px 30px 0 rgba(47, 48, 56, .1);
+}
+#iw-container {
+    margin-bottom: 10px;
+}
+#iw-container .iw-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    margin: 0;
+    padding: 10px;
+
+    color: white;
+    border-radius: 2px 2px 0 0;
+    background-color: #48b5e9;
+}
+#iw-container .iw-content {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    max-height: 140px;
+    margin-right: 1px;
+    padding: 15px 5px 20px 15px;
+}
+.iw-content img {
+    float: right;
+
+    margin: 0 5px 5px 10px;
+}
+.iw-subTitle {
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 5px 0;
+}
+.iw-bottom-gradient {
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+
+    width: 326px;
+    height: 25px;
+
+    background:         linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background:    -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background:     -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+.gm-style {
+    .gm-style-iw-a {
+        > ::after {
+            display: none;
+        }
+        .gm-style-iw-t {
+            .gm-style-iw.gm-style-iw-c {
+                padding: 0;
+                top: 215px !important;
+                left: 0 !important;
+                z-index: -999;
+
+                .gm-style-iw-d {
+                    overflow: hidden !important;
+
+                    max-width: 200px !important;
+
+                    border-radius: 5px;
+                }
+
+                button {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.date-picker {
+    >i {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 11px;
+        pointer-events: none;
+    }
+    .up-down-buttons {
+        position: absolute;
+        top: -3px;
+        right: -17px;
+
+        button.btn-toggletime {
+            padding: 0 10px;
+            outline: none;
+            line-height: 1.2;
+            &:active, &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+.price-input {
+    span {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top:7px;
+    }
+    input {
+        padding-left: 15px;
+    }
+    
+}
+
+.with-char-counter {
+    padding-right: 47px;
+}
+
+.btn-with-spinner {
+    position: relative;
+    .spinner-border {
+        position: absolute;
+        top: 15px;
+        left: 5px;
+    }
+}
+
+.react-select-container {
+    .react-select__placeholder {
+        color: #c6c6c6;
+    }
+}
+
+.clone-btn {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    &:after {
+        position: absolute;
+        top: -4px;
+        content: "\f0c5";
+        font-family: 'Font Awesome\ 5 Free';
+        font-size: 1.2rem;
+        color: #55acfe;
+    }
+    &:hover:after {
+        content: "\f0c5";
+        font-weight: 900;
+    }
+}
+
+.doc-id{
+    align-self: center
+}

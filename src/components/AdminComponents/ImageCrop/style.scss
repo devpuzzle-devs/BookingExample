@@ -1,0 +1,24 @@
+.crop-container {
+    width: 100%;
+    height: 550px;
+    position: relative;
+  }
+
+.controls {
+    width: 300px;
+    .rangeslider-horizontal {
+        height: 8px;
+        border-radius: 4px;
+        .rangeslider__fill {
+            background-color: #55acfe;
+        }
+
+        .rangeslider__handle {
+            outline: none;
+        }
+
+        .rangeslider__handle:after {
+            display: none;
+        }
+    }
+}

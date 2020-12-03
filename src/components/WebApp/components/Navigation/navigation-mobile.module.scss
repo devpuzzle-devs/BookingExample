@@ -1,0 +1,331 @@
+.Nav {
+    // font-family: Avenir;
+    font-size: 20px;
+    font-weight: 500;
+
+    position: relative;
+    // padding-bottom: 196px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    margin: 0 0 0 -250px;
+    padding-top: 30px;
+    padding-left: 15px;
+
+    list-style-type: none;
+
+    transition: all .5s ease-in;
+    transition: margin .5s;
+    // width: 0;
+
+    opacity: 0;
+    // font-stretch: normal;
+    // font-style: normal;
+    // line-height: normal;
+    // letter-spacing: normal;
+    color: #2f3038;
+    background-color: #fff;
+
+    &.Open {
+        z-index: 15;
+
+        margin-top: 65px;
+        margin-left: 0;
+        // bottom: 0;
+        // width: 100%;
+
+        transition: all .5s;
+
+        opacity: 1;
+    }
+
+    .NavItem {
+        margin-bottom: 28px;
+        &.Link {
+            text-decoration: none;
+
+            color: #2f3038;
+
+            :hover {
+                color: #3e73ec;
+            }
+
+            .LinkItem {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.MobileMenu > .SubItem.NavItem {
+    font-size: 15px;
+
+    margin-left: 20px;
+}
+
+.Google {
+    // display: flex;
+    // justify-content: center;
+    position: sticky;
+    z-index: 15;
+    bottom: 22px;
+}
+
+.SubMenu {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    letter-spacing: normal;
+
+    color: #2f3038;
+
+    div {
+        font-weight: 500;
+
+        margin-top: 20px;
+        padding-left: 21px;
+    }
+}
+
+.BurgerButton {
+    display: none;
+}
+
+.BackGroudColor {
+    background-color: #fff !important;
+}
+
+.NavWrapper {
+    position: relative;
+
+    height: 100%;
+}
+
+.MobileMenu {
+    // font-family: Avenir;
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    overflow: scroll;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: calc(100% - 60px);
+    // font-stretch: normal;
+    // font-style: normal;
+    // line-height: normal;
+    // letter-spacing: normal;
+
+    color: #2f3038;
+
+    .Link {
+        height: 100%;
+
+        text-decoration: none;
+
+        color: #2f3038;
+    }
+
+    .Active .Link {
+        margin-top: 15px;
+
+        color: #3e73ec;
+    }
+}
+
+.MobileMenu {
+    > div {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 8px;
+
+        cursor: pointer;
+    }
+}
+
+.Active {
+    cursor: pointer;
+    transition: all .4s;
+
+    color: #3e73ec;
+}
+
+.GooglePlayImageMobile {
+    display: flex;
+    align-items: flex-end;
+    flex: 1 0 auto;
+
+    a img {
+        max-width: 181px;
+    }
+}
+
+
+
+.ClearAll {
+    font-size: 13px;
+    font-weight: 500;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+
+    color: #2f3038;
+}
+
+// -------------------FILTER---------------------------- /  /
+.MobileFilterMenu {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100% - 60px);
+
+    :only-child {
+        width: 100%;
+    }
+}
+
+.InputTown {
+    font-family: Avenir;
+    font-size: 15px;
+
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    padding-left: 30px;
+
+    text-align: left;
+
+    color: rgb(179, 181, 199);
+    border: 1px solid rgb(247, 248, 252);
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f8fc;
+    background-image: url('../../../../assets/img/search-locaion/search-locaion.png');
+    background-repeat: no-repeat ;
+    background-position-y: center;
+}
+
+.MobileFilterMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    :only-child {
+        width: 100%;
+    }
+}
+
+.FilterButtons {
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    margin-top: 15px;
+
+    text-align: center;
+    letter-spacing: normal;
+
+    color: #2f3038;
+    border: solid 1px #efeff5;
+    border-radius: 5px;
+}
+
+.ApplyFilter {
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    // position: absolute;
+
+    bottom: 32px;
+
+    width: 100%;
+
+    text-align: center;
+    letter-spacing: normal;
+
+    color: #fff;
+    border-radius: 30px;
+    background-color: #3e73ec;
+}
+
+.NavFilterItem {
+    height: 100%;
+}
+
+.FiltersActive {
+    color: #3e73ec;
+    border: solid 1px #3e73ec;
+}
+.FiltersActive.ClearAll {
+    border: none;
+}
+
+.TagsFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CustomSearch {
+    display: flex;
+    align-items: center;
+}
+
+.CheckItem {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.IsSaved {
+    color: #3e73ec !important;
+}
+
+@media (max-width: 1023px) {
+    .BurgerButton {
+        display: inline-block;
+    }
+
+    .RightMenu {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .LeftMenu {
+        display: none;
+    }
+    .CustomSearch {
+        display: none;
+    }
+}

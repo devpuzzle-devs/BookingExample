@@ -1,0 +1,31 @@
+// Styling for the footer
+footer {
+    padding: 25px 0;
+    color: #fff;
+    background-color: $gray-darker;
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 315px;
+        background: url('../assets/img/footer-bg.png') bottom left no-repeat;
+        background-size: 100% 100%;  
+    }
+    ul {
+        margin-bottom: 0;
+        li {
+            a {
+                color: #fff;
+                &:hover,
+                &:focus,
+                &:active,
+                &.active {
+                    text-decoration: none;
+                    color: $gray-lighter;
+                }
+            }
+        }
+    }
+}

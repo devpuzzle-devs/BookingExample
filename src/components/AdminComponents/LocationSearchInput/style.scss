@@ -1,0 +1,23 @@
+.autocomplete-wrapper {
+    position: relative;
+    .autocomplete-dropdown-container {
+        z-index: 10;
+        background: #fff;
+        position: absolute;
+        top: 100%;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        &.hidden {
+            visibility: hidden;
+        }
+
+        .suggestion-item, .suggestion-item--active {
+            line-height: 1.5;
+            padding: 6px;
+        }
+    }
+}

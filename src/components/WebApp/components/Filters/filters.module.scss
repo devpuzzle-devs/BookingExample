@@ -1,0 +1,215 @@
+.FilterWrapper {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+
+    .InputTown {
+        font-size: 15px;
+    }
+
+    .InputSearch {
+        font-size: 13px;
+    }
+
+    input {
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+
+        letter-spacing: normal;
+
+        color: #b3b5c7;
+    }
+
+    button {
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+
+        letter-spacing: normal;
+
+        color: #2f3038;
+        background-color: #fff;
+    }
+
+    .FiltersActive {
+        line-height: .63rem;
+
+        color: #3e73ec;
+        border: solid 1px #3e73ec;
+    }
+
+    .FiltersActive.ClearAll {
+        border: none;
+    }
+}
+
+// .InputSearch {
+//     width: 100%;
+//     height: 40px;
+//     padding: 5px;
+//     padding-left: 30px;
+
+//     text-align: left;
+
+//     border: 1px solid rgb(247, 248, 252);
+//     border-radius: 5px;
+//     outline: none;
+//     background-color: #f7f8fc;
+//     background-image: url('../../../../assets/img/search/search.png');
+//     background-repeat: no-repeat;
+//     background-position: left;
+// }
+
+.InputTown {
+    font-family: Avenir;
+    font-size: 15px;
+
+    display: none;
+
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    padding-left: 30px;
+
+    text-align: left;
+
+    color: rgb(179, 181, 199);
+    border: 1px solid rgb(247, 248, 252);
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f8fc;
+    background-image: url('../../../../assets/img/search-locaion/search-locaion.png');
+    background-repeat: no-repeat ;
+}
+
+.Button {
+    width: 70px;
+    height: 40px;
+    margin-left: 5px;
+    padding: 0;
+
+    border: 1px solid rgb(239, 239, 245);
+    border-radius: 5px;
+}
+
+.FilterButtons {
+    font-size: 13px;
+    font-weight: 500;
+
+    position: relative;
+
+    display: none;
+
+    width: 65px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0;
+
+    color: #2f3038;
+    border: 1px solid rgb(239, 239, 245);
+    border-radius: 5px;
+}
+
+.ClearAll {
+    font-size: 13px;
+    font-weight: 500;
+
+    display: none;
+
+    margin-left: 20px;
+
+    cursor: pointer;
+
+    color: #2f3038;
+}
+
+.PopoverWrapper {
+    position: absolute;
+    z-index: 1;
+    left: -65px;
+
+    margin-top: 5px;
+
+    input {
+        color: #2f3038;
+    }
+}
+
+.Popover {
+    width: 200px;
+    height: 251px;
+
+    border: solid 1px #efeff5;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 5px rgba(47, 48, 56, .05);
+}
+
+.DateFilter {
+    width: 100%;
+}
+
+.FilterButtonWrappper {
+    position: relative;
+
+    display: none;
+}
+
+.CustomSearch {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .InputTown {
+        display: block;
+    }
+
+    .Button {
+        display: none;
+    }
+
+    .FilterButtons {
+        z-index: 50;
+
+        display: block;
+    }
+
+    .ClearAll {
+        display: block;
+    }
+
+    .FilterWrapper {
+        justify-content: flex-start;
+    }
+
+    .FilterButtonWrappper {
+        display: block;
+    }
+
+    .CustomSearch {
+        display: none;
+    }
+}
+
+.GooglePlayImage {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+    > a > img {
+        width: 115px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .GooglePlayImage {
+        display: none;
+    }
+}

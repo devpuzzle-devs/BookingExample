@@ -1,0 +1,155 @@
+.BackGroudColor {
+    background-color: #fff !important;
+}
+
+.MenuFont {
+    a {
+        font-size: 15px;
+        font-weight: 500;
+
+        color: #2f3038 !important;
+    }
+}
+
+.IsSaved.IsSaved {
+    color: #3e73ec !important;
+}
+
+.SubMenu {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    letter-spacing: normal;
+
+    color: #2f3038;
+
+    div {
+        font-weight: 500;
+
+        padding-left: 21px;
+    }
+}
+
+.SubMenuText {
+    font-size: 13px;
+    font-weight: 500;
+
+    padding-left: 10px;
+
+    color: #2f3038;
+}
+
+.FacebookButton {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 270px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    letter-spacing: normal;
+
+    color: #fff;
+    border-radius: 30px;
+    background-color: #3b5998;
+
+    img {
+        width: 11px;
+        height: 20px;
+        margin-right: 25px;
+    }
+}
+
+.GoogleButton {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 270px;
+    height: 50px;
+
+    text-align: center;
+    letter-spacing: normal;
+
+    color: #2f3038;
+    border: solid 1px #efeff5;
+    border-radius: 30px;
+    background-color: #f9fafb;
+
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 25px;
+    }
+}
+
+.GooglePlayImage {
+    width: 115px;
+}
+
+.UserPhoto {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+
+    cursor: pointer;
+
+    > img {
+        width: 100%;
+
+        border-radius: 50%;
+    }
+}
+
+.LogOut {
+    font-family: Avenir;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    cursor: pointer;
+    letter-spacing: normal;
+
+    color: #2f3038;
+}
+
+#Fixxx {
+    position: absolute;
+    top: 3rem !important;
+    right: 6% !important;
+    left: unset !important;
+
+    transition: opacity .2s linear;
+    transform: none !important;
+
+    opacity: 1;
+}
+
+#Fixxx.HiddenLogIn {
+    transition: opacity .2s linear;
+
+    opacity: 0;
+}

@@ -1,0 +1,228 @@
+th {
+    background-color: #fff;
+    color: #6c757d;
+    &.name {
+        min-width: 220px;
+    }
+
+    &.location {
+        min-width: 250px;
+    }
+
+    &.city {
+        min-width: 150px;
+    }
+
+    &.organizer {
+        min-width: 180px;
+    }
+
+    &.phoneNumber {
+        min-width: 140px;
+    }
+
+    &.startTime, &.endTime {
+        min-width: 105px;
+    }
+
+    &.ageMin, &.ageMax, &.priceMin, &.priceMax {
+        min-width: 85px;
+    }
+
+
+}
+
+td {
+    &.clone-td {
+        .clone-btn {
+            position: relative;
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            &:after {
+                position: absolute;
+                top: -4px;
+                content: "\f0c5";
+                font-family: 'Font Awesome\ 5 Free';
+                font-size: 1.2rem;
+                color: #55acfe;
+            }
+            &:hover:after {
+                content: "\f0c5";
+                font-weight: 900;
+            }
+        }
+    }
+
+    &.edit-td {
+        .edit-btn {
+            position: relative;
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            &:after {
+                position: absolute;
+                top: -4px;
+                content: "\f044";
+                font-family: 'Font Awesome\ 5 Free';
+                font-size: 1.2rem;
+                color: #55acfe;
+            }
+            &:hover:after {
+                content: "\f044";
+                font-weight: 900;
+            }
+        }
+    }
+
+    &.history-td {
+        .history-btn {
+            position: relative;
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            &:after {
+                position: absolute;
+                top: -4px;
+                content: "\f1da";
+                font-weight: 900;
+                font-family: 'Font Awesome\ 5 Free';
+                font-size: 1.2rem;
+                color: #777;
+            }
+            &:hover:after {
+                content: "\f1da";
+                font-weight: 900;
+                color: #55acfe;
+            }
+        }
+    }
+
+    &.report-issue-td {
+        .report-issue-btn {
+            position: relative;
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            &:after {
+                position: absolute;
+                top: -4px;
+                content: "\f06a";
+                font-weight: 900;
+                font-family: 'Font Awesome\ 5 Free';
+                font-size: 1.2rem;
+                color: #777;
+            }
+            &:hover:after {
+                content: "\f06a";
+                font-weight: 900;
+                color: #55acfe;
+            }
+
+            &.has-issues {
+                &:after {
+                    color: #dc3545;
+                }
+            }
+        }
+    }
+}
+
+.event-image {
+    background-size: cover;
+    background-position: center center;
+}
+
+.event-image-thumb {
+    min-width: 120px;
+}
+
+.toolbar-buttons {
+    .dropdown {
+        display: inline-block;
+        >button {
+            color: #777;
+            display: flex;
+        }
+    }
+
+    .large {
+        font-size: 1.3em;
+    }
+
+    .vertical-separator {
+        font-size: 2em;
+        vertical-align: middle;
+        border-right: 1px solid #777;
+    }
+
+    .page-select {
+        min-width: 5rem;
+    }
+}
+.manage-events {
+    .table-outer-wrapper {
+        height: 547px;
+        overflow: auto;
+    }
+
+    .manage-events-tabs {
+        padding-left: 40px;
+    }
+}
+
+a.nav-link {
+    color: #495057;
+
+    &:hover, &:focus {
+        color: #495057;
+    }
+
+    &:visited {
+        color: #495057;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1366px) {
+    td {
+        &.clone-td {
+            .clone-btn {
+                width: 15px;
+            }
+        }
+
+        &.edit-td {
+            .edit-btn {
+                width: 15px;
+            }
+        }
+
+        &.history-td {
+            .history-btn {
+                width: 15px;
+            }
+        }
+
+        &.report-issue-td {
+            .report-issue-btn {
+                width: 15px;
+            }
+        }
+    }
+
+    .toolbar-buttons {
+        .large {
+            font-size: 1em;
+        }
+    }
+
+    .manage-events {
+        .manage-events-tabs {
+            padding-left: 10px;
+        }
+    }
+
+    .event-image-thumb {
+        min-width: 90px;
+    }
+}

@@ -1,0 +1,16 @@
+.WrapperLeftMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuFont{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2f3038 ;
+}
+.MenuActive{
+    color: #3e73ec;
+    transition: all .4s;
+}

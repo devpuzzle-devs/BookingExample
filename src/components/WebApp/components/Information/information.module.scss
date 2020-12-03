@@ -1,0 +1,103 @@
+.Info {
+    display: flex;
+
+    margin: 10px;
+
+    .InfoItem {
+        font-weight: 900;
+
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 10px;
+
+        &:first-child {
+            padding-right: 20px;
+            padding-left: 20px;
+
+            border-right: solid 1px #efeff5;
+        }
+
+        &#Splitter {
+            padding: 0;
+        }
+    }
+
+    .InfoCampItem {
+        font-weight: 900;
+
+        display: flex;
+        flex-direction: column;
+
+        padding-right: 10px;
+        padding-left: 10px;
+
+        &:first-child {
+            padding-left: 20px;
+        }
+
+        &:nth-child(3) {
+            border-right: solid 1px #efeff5;
+        }
+    }
+}
+
+#Mounth {
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+    color: #ff5a5f;
+}
+
+#Days {
+    font-size: 26px;
+
+    color: #2f3038;
+}
+
+#TimeAndDayOfWeek {
+    font-size: 11px;
+
+    letter-spacing: .46px;
+    text-transform: uppercase;
+
+    color: #ff5a5f;
+}
+
+#EventName {
+    font-size: 14px;
+    font-weight: 500;
+
+    text-transform: capitalize;
+
+    color: #b3b5c7;
+}
+
+#CampName {
+    font-size: 15px;
+    font-size: 14px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    color: #2f3038;
+}
+
+#Organizer {
+    font-size: 14px;
+    font-weight: 500;
+
+    text-transform: capitalize;
+
+    color: #b3b5c7;
+}
+
+
+#Price {
+    font-size: 15px;
+
+    text-transform: uppercase;
+
+    color: #2f3038;
+}

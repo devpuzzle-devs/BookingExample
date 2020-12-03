@@ -1,0 +1,106 @@
+.ImageWrapper {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    padding-top: 56.25%;
+
+    border-radius: 10px;
+}
+
+.LabelWrapper {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+
+    display: flex;
+}
+
+.Image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100% !important;
+}
+
+.Free {
+    font-size: 11px;
+    font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 55px;
+    height: 20px;
+    margin-right: 5px;
+
+    text-align: center;
+    letter-spacing: .46px;
+    text-transform: uppercase;
+
+    color: #fff;
+    border-radius: 2px;
+    background-color: rgb(255, 90, 95);
+}
+
+.Daily {
+    font-size: 11px;
+    font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 55px;
+    height: 20px;
+    margin-right: 5px;
+
+    text-align: center;
+    text-align: center;
+    letter-spacing: .46px;
+    text-transform: uppercase;
+
+    color: #2f3038;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.Camp {
+    font-size: 9px;
+    font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    text-align: center;
+    text-align: center;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+
+    color: #2f3038;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.Like {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+
+    object-fit: contain;
+
+    img {
+        cursor: pointer;
+    }
+}

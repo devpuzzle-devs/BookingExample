@@ -1,0 +1,12 @@
+.char-count {
+    position: absolute;
+    right: 22px;
+    pointer-events: none;
+    &.top {
+        top: 7px;
+    }
+
+    &.bottom {
+        bottom: 7px;
+    }
+}

@@ -1,0 +1,87 @@
+.DayPicker-wrapper {
+    padding-bottom: 0;
+
+    .DayPicker-NavBar {
+        .DayPicker-NavButton--prev {
+            top: 12px;
+            left: 19px;
+
+            width: 20px;
+            height: 20px;
+
+            transform: rotate(180deg);
+
+            background-image: url(../../../../assets/img/arrow-back/arrow-back@3x.png);
+            background-size: 100%;
+        }
+        .DayPicker-NavButton--next {
+            top: 12px;
+            right: 17px;
+
+            width: 20px;
+            height: 20px;
+
+            background-image: url(../../../../assets/img/arrow-back/arrow-back@3x.png);
+            background-size: 100%;
+        }
+    }
+
+    .DayPicker-Caption {
+        > div {
+            font-family: Avenir;
+            font-size: 13px;
+            font-weight: 900;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+
+            text-align: center;
+            letter-spacing: normal;
+
+            color: #2f3038;
+        }
+    }
+
+    .DayPicker-Weekday {
+        font-family: Avenir;
+        font-size: 9px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+
+        text-align: center;
+        letter-spacing: normal;
+
+        color: #b3b5c7;
+    }
+
+    .DayPicker-Day {
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+
+        text-align: center;
+        letter-spacing: normal;
+
+        color: #2f3038;
+    }
+    .DayPicker-Day--selected {
+        border-radius: 50% ;
+        background-color: #3e73ec;
+    }
+}
+
+.DeleteSvgCollapse {
+    >div :nth-child(2) {
+        :nth-child(2){
+            display: none;
+        }
+        >:nth-child(3){
+            display: none;
+            padding: 1px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.CheckItem {
+    font-family: Avenir;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+
+    letter-spacing: normal;
+
+    color: #2f3038;
+}
+
+.Bacground {
+    position: fixed;
+    z-index: 49;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0);
+}

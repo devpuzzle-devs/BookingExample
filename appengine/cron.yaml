@@ -1,0 +1,26 @@
+cron:
+- description: "Daily Cloud Firestore Export"
+  url: /cloud-firestore-export?outputUriPrefix=gs://test-backups/firestoreBackup
+  target: cloud-firestore-admin
+  schedule: every day 08:00
+  timezone: America/Los_Angeles
+
+- description: "Update recurring events"
+  url: /update-recurring-events
+  schedule: 31 of february 08:00
+  timezone: America/Los_Angeles
+
+- description: "Update expiredFlag daily"
+  url: /update-expired-flag
+  schedule: 31 of february 08:00
+  timezone: America/Los_Angeles
+
+- description: "Archive events"
+  url: /archive-events
+  schedule: 31 of february 08:00
+  timezone: America/Los_Angeles
+
+- description: "Create user notifications"
+  url: /create-user-notifications
+  schedule: every day 00:10
+  timezone: America/Los_Angeles
